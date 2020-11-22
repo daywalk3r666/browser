@@ -15,9 +15,10 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 105
-        versionName "7.2"
+        versionName "7.2.1"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
+        setProperty("archivesBaseName", "Foss Browser_v" + versionName)
     }
 
     buildTypes {
